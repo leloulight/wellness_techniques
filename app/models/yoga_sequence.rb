@@ -1,3 +1,3 @@
-class YogaSequences < ActiveRecord::Base
+class YogaSequence < ActiveRecord::Base
 
 end

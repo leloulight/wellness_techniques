@@ -1,3 +1,3 @@
-class LocalOrgans < ActiveRecord::Base
+class LocalOrgan < ActiveRecord::Base
   # Remember to create a migration!
 end

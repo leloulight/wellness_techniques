@@ -1,3 +1,3 @@
-class PlantTypes < ActiveRecord::Base
+class PlantType < ActiveRecord::Base
 
 end

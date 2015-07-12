@@ -1,3 +1,3 @@
-class Herbs < ActiveRecord::Base
+class Herb < ActiveRecord::Base
 
 end

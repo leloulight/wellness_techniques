@@ -1,3 +1,3 @@
-class Essences < ActiveRecord::Base
+class Essence < ActiveRecord::Base
 
 end

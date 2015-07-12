@@ -1,3 +1,3 @@
-class YogaPoseBenefits < ActiveRecord::Base
+class YogaPoseBenefit < ActiveRecord::Base
 
 end

@@ -1,3 +1,3 @@
-class Meditations < ActiveRecord::Base
+class Meditation < ActiveRecord::Base
 
 end

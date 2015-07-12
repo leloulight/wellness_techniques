@@ -1,3 +1,3 @@
-class YogaPoseFigures < ActiveRecord::Base
+class YogaPoseFigure < ActiveRecord::Base
   # Remember to create a migration!
 end

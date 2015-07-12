@@ -1,3 +1,3 @@
-class SoundSyllables < ActiveRecord::Base
+class SoundSyllable < ActiveRecord::Base
 
 end

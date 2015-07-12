@@ -1,3 +1,3 @@
-class ImbalanceIssues < ActiveRecord::Base
+class ImbalanceIssue < ActiveRecord::Base
 
 end
