@@ -1,8 +1,9 @@
 class YogaPoseBenefits < ActiveRecord::Migration
-    create_table :yoga_sequences do |t|
+  def change
+    create_table :yoga_pose_benefits do |t|
       t.integer :yogapose_id
-      t.integer :step
-      t.string :description
+      t.string :benefit
       t.timestamps
     end
+  end
 end

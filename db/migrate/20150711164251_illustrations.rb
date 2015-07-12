@@ -1,4 +1,5 @@
 class Illustrations < ActiveRecord::Migration
+  def change
     create_table :illustrations do |t|
       t.integer :yogapose_id
       t.integer :figure_step
@@ -6,4 +7,5 @@ class Illustrations < ActiveRecord::Migration
       t.string :url_path
       t.timestamps
     end
+  end
 end
