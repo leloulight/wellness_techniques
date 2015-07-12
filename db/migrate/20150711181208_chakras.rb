@@ -1,6 +1,6 @@
-class BodyCenters < ActiveRecord::Migration
+class Chakras < ActiveRecord::Migration
   def change
-    create_table :body_centers do |t|
+    create_table :chakras do |t|
       t.string :name
       t.string :description
       t.string :location

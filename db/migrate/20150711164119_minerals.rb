@@ -1,6 +1,6 @@
-class Mineralia < ActiveRecord::Migration
+class Minerals < ActiveRecord::Migration
   def change
-    create_table :mineralia do |t|
+    create_table :minerals do |t|
       t.integer :chakra_id
       t.string :name
       t.string :description
