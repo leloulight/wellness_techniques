@@ -3,7 +3,7 @@ class Originations < ActiveRecord::Migration
     create_table :originations do |t|
       t.integer :chakra_id
       t.string :name
-      t.string :description
+      t.string :definition
       t.timestamps
     end
   end

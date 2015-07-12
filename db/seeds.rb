@@ -2,12 +2,13 @@ crown_values = {
   western_name: "Crown Chakra",
   eastern_name: "Sahasrara",
   translation: "thousandfold",
-  description: "The seventh chakra, the Crown Chakra, is known as the 'thousand-petaled lotus, the symbol of purity and spirituality. It is our highest energy center, both in terms of physical location and rate of vibration. This chakra represents liberation, bringing great knowledge, deep understanding, inner wisdom, and a connection to the escalation of spiritual practice. It represents union with the higher self, the cosmos, the Divine."
+  description: "The seventh chakra, the Crown Chakra, is known as the 'thousand-petaled lotus, the symbol of purity and spirituality. It is our highest energy center, both in terms of physical location and rate of vibration. This chakra represents liberation, bringing great knowledge, deep understanding, inner wisdom, and a connection to the escalation of spiritual practice. It represents union with the higher self, the cosmos, the Divine.",
   location: "top of the head",
   colors: "white, mauve, or violet",
   element: "energy",
   signs_imbalance: "Major issues of an unbalanced Crown Chakra are lack of purpose, loss of meaning, indifference, and depression. An attachment to materialism is central, and ethical and moral beliefs may be weak. We may feel disconnected from the flow of life and nature. Spirituality is nonexistent, or we may have an unquestioning adherence to religious dogma."
 }
+
 crown = Chakra.create!(crown_values)
 
 intuition_center_values = {
@@ -68,7 +69,7 @@ sacral_values = {
   element: "water",
   signs_imbalance: "When the Sacral Chakra is balanced, we feel confident and able to relate to others in an open, friendly manner. We can feel and freely process our emotions, allowing ourselves to find balance in our lives and appreciate the yin-yang of our existence. We are adaptable, feel creative, and are tuned in to the stream of life's energy.",
 }
-sacral = Chakra.create!(root_values)
+sacral = Chakra.create!(sacral_values)
 
 root_values = {
   western_name: "Root Chakra",
@@ -81,4 +82,117 @@ root_values = {
   signs_imbalance: "Major issues of an unbalanced Root Chakra are feelings of isolation, abandonment, and lack of trust. Fear may take control of our emotional and psychological health. We may feel uncomfortable or not present in the body, a sense of not being heard or noticed, or of being totally alone. There may be difficulty manifesting what is needed in life (such as finding a mate, a good job, a home, attracting friends), along with a belief in the scarcity (not enough money, clothes, food, happiness) and a conviction that material wealth is crucial.",
 }
 root = Chakra.create!(root_values)
+
+origination_values1 = {
+  chakra_id: 7,
+  name: "union",
+  definition: "Something formed by uniting two or more things; combination."
+}
+
+origination_values2 = {
+  chakra_id: 7,
+  name: "clarity of thought",
+  definition: "Clearness or lucidity as to perception or understanding; freedom from indistinctness, ambiguity, or dualistic fixation."
+}
+
+origination_values3 = {
+  chakra_id: 6,
+  name: "intuition",
+  definition: "Keen, quick insight, direct perception of truth, fact, etc., independent of any reasoning process; immediate apprehension."
+}
+
+origination_values4 = {
+  chakra_id: 5,
+  name: "expression",
+  definition: "The quality or power of expressing an attitude, emotion; an indication of feeling, spirit, or character."
+}
+
+origination_values5 = {
+  chakra_id: 5,
+  name: "communication",
+  definition: "The imparting or interchange of thoughts, opinions, or information by speech, writing, or signs."
+}
+
+origination_values6 = {
+  chakra_id: 4,
+  name: "love",
+  definition: "A feeling of warm personal attachment or deep affection, as for a parent, child, friend, beloved."
+}
+
+origination_values7 = {
+  chakra_id: 4,
+  name: "compassion",
+  definition: "A feeling of deep sympathy and sorrow for another who is stricken by misfortune, accompanied by a strong desire to alleviate the suffering."
+}
+
+origination_values8 = {
+  chakra_id: 3,
+  name: "personality",
+  definition: "The visible aspect of one's character as it impresses others, likewise, a person as the embodiment of a collection of qualities."
+}
+
+origination_values9 = {
+  chakra_id: 3,
+  name: "will power",
+  definition: "Control of one's impulses and actions; self-control."
+}
+
+origination_values10 = {
+  chakra_id: 3,
+  name: "presence of the holy spirit",
+  definition: "The authority, promptings, or spirit of God as a part of a person's conscious inner and outward way of experiencing phenomena."
+}
+
+origination_values11 = {
+  chakra_id: 2,
+  name: "emotion",
+  definition: "An affective state of consciousness in which joy, sorrow, fear, hate, or the like, is experienced, as distinguished from cognitive and volitional states of consciousness.."
+}
+
+origination_values12 = {
+  chakra_id: 2,
+  name: "warmth",
+  definition: "The quality or state of being warm; moderate or gentle heat; a liveliness of feelings, or sympathies; ardor or fervor; enthusiasm or zeal."
+}
+
+origination_values13 = {
+  chakra_id: 2,
+  name: "relationships",
+  definition: "An emotional connection, association, or involvement between and among people."
+}
+
+origination_values14 = {
+  chakra_id: 1,
+  name: "creativity",
+  definition: "The ability to transcend traditional ideas, rules, patterns, relationships, or the like, and to create meaningful new ideas, forms, methods, interpretations, etc.; originality, progressiveness, or imagination."
+}
+
+origination_values15 = {
+  chakra_id: 1,
+  name: "sexuality",
+  definition: "Recognition of or emphasis upon, possession of the attraction, structural, and functional traits of sex."
+}
+
+origination_values16 = {
+  chakra_id: 1,
+  name: "safety",
+  definition: "The the state of being safe; freedom from the occurrence or risk of injury, danger, loss, the feeling or condition of being afraid."
+}
+
+originations1 = Origination.create!(origination_values1)
+originations2 = Origination.create!(origination_values2)
+originations3 = Origination.create!(origination_values3)
+originations4 = Origination.create!(origination_values4)
+originations5 = Origination.create!(origination_values5)
+originations6 = Origination.create!(origination_values6)
+originations7 = Origination.create!(origination_values7)
+originations8 = Origination.create!(origination_values8)
+originations9 = Origination.create!(origination_values9)
+originations10 = Origination.create!(origination_values10)
+originations11 = Origination.create!(origination_values11)
+originations12 = Origination.create!(origination_values12)
+originations13 = Origination.create!(origination_values13)
+originations14 = Origination.create!(origination_values14)
+originations15 = Origination.create!(origination_values15)
+originations16 = Origination.create!(origination_values16)
 

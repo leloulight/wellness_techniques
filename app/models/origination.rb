@@ -1,3 +1,3 @@
-class Originations < ActiveRecord::Base
+class Origination < ActiveRecord::Base
   # Remember to create a migration!
 end
